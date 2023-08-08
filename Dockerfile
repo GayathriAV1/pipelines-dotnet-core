@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/core/sdk:7.0 AS build-env
+FROM mcr.microsoft.com/dotnet/core/sdk:2.1 AS build-env
 WORKDIR /app
 
 COPY *.csproj ./
